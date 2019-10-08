@@ -1,47 +1,50 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Layout from "../components/layout";
-import Img from "gatsby-image";
-import SEO from "../components/seo";
-import "../style/basepage.less";
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
+import Img from 'gatsby-image';
+import SEO from '../components/seo';
+import '../style/basepage.less';
+import SectionTitle from '../components/sectiontitle';
 
 export default function({ data }) {
-    return (
-        <Layout>
-            <SEO
-                lang="en"
-                title={data.markdownRemark.frontmatter.title}
-                description={data.markdownRemark.frontmatter.description}
-            />
-            <div className="container">
-                <article className="post">
-                    <div className="head text-primary">
-                        <h1>{data.markdownRemark.frontmatter.title}</h1>
-                    </div>
-                    <div className="content row flex">
-                        {data.markdownRemark.frontmatter.image && (
-                            <div className="center">
-                                <div className="img">
-                                    <Img
-                                        fluid={
-                                            data.markdownRemark.frontmatter
-                                                .image.childImageSharp.fluid
-                                        }
-                                    />
-                                </div>
-                            </div>
-                        )}
-                        <div
-                            className="col s12 m11 l10"
-                            dangerouslySetInnerHTML={{
-                                __html: data.markdownRemark.html
-                            }}
-                        ></div>
-                    </div>
-                </article>
-            </div>
-        </Layout>
-    );
+  return (
+    <Layout>
+      <div style={{ minHeight: "600px" }}>
+      <SEO
+        lang="en"
+        title={data.markdownRemark.frontmatter.title}
+        description={data.markdownRemark.frontmatter.description}
+      />
+        <section id="contact" className="container">
+          <div className="section-title">
+            <SectionTitle title="ABOUT" />
+          </div>
+        </section>
+        <div className="content">
+        <article className="post">
+            {data.markdownRemark.frontmatter.image && (
+              <div className="center">
+                <div className="img">
+                  <Img
+                    fluid={
+                      data.markdownRemark.frontmatter
+                        .image.childImageSharp.fluid
+                    }
+                  />
+                </div>
+              </div>
+            )}
+          <div
+            className="text-center"
+            dangerouslySetInnerHTML={{
+              __html : data.markdownRemark.html
+            }}>
+          </div>
+        </article>
+        </div>
+    </div>
+    </Layout>
+  );
 }
 
 export const query = graphql`

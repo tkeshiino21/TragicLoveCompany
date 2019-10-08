@@ -1,25 +1,37 @@
 ---
-title: Something Hot
+title: Kawata & Takazawa
 date: 2019-06-29
 template: blog
-image: ./image.jpg
-banner: ./banner.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+image: ./image3.jpg
+banner: 
+description: 現在、ギター＆ドラム＋ベース(サポート)のTLC。二人のプロフィールの詳細はこちら。
 ---
 
-![image](./image.jpg)
+![image](./image2.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+>Kawata
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+BritPopが特に好きそうだが、それ以外にも古今様々な音楽に詳しい。
+最近はレコードにも手を出した模様。
+ノリが完全に関西だが、東京進出を目論んでいるとかいないとか。
+
+---favorite--
+
+The Beatles, The Kinks, Stereophonics, Oasis, TRICERATOPS
+辺りが好きだと言っていたような気がする。
+
+<br>
 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+>Takazawa
 
-## Heading
+通称：「チョケ」　しかし、本人はあまりチョケきれていない様子。
+「見た目はチャラいが根は真面目」というモテそうなギャップを有しているが、
+実際モテているかどうかは本人に聞いて欲しい。
 
- - Test
- - Test 2
- - Test 3
+---favorite--
 
->Blockquote
+Pearl Jam, My Bloody Valentine, Arcticmonkeys
+辺りが好きだと言っていたような気がする。
+
+

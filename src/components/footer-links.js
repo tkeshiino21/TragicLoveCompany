@@ -13,6 +13,7 @@ function ListItem(props) {
             <Link to={data.url} {...anchorAttrs}>
                 <span>{data.name}</span>
             </Link>
+            　{     }by Takeshi Inoue
         </li>
     );
 }

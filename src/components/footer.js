@@ -37,6 +37,7 @@ export default function() {
                     Copyright &copy; {query.site.siteMetadata.title}{" "}
                     {new Date().getFullYear()}
                 </p>
+                
             </div>
         </footer>
     );

@@ -1,12 +1,12 @@
 let siteMetadata = {
-    title: `Elemental`,
+    title: `Tragic Love Company`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-    author: `@_akzhy`,
+    introTag: `THREE PIECE ROCK BAND`,
+    description: `New single Mesopotamia/Filter ーrelease`,
+    author: `@takeshiino21`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
@@ -21,58 +21,54 @@ let siteMetadata = {
             url: "/about"
         },
         {
-            name: "BLOG",
+            name: "BIOGRAPHY",
             url: "/blog"
         },
         {
-            name: "PORTFOLIO",
+            name: "DICOGRAPHY",
             url: "/portfolio"
         },
         {
             name: "CONTACT",
             url: "/contact"
-        }
+        },
     ],
     footerLinks: [
         {
-            name: "PRIVACY POLICY",
+            name: "Wanna Cool Web?",
             url: "/privacy-policy"
         },
-        {
-            name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental"
-        }
     ],
     social: [
         {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "#"
+            url: "https://twitter.com/choke_zawa"
         },
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "#"
+            url: "https://twitter.com/BandTLC/status/1172359362695688192"
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#"
+            url: "https://www.instagram.com/bandtlc/?hl=ja"
         },
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "#"
+            url: "https://www.youtube.com/channel/UCdLN8hv922hFRcczh-siOWg"
         }
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
+        description: `出演依頼はtwitterのダイレクトメッセージからお願い致します。楽曲の感想やメッセージ等もお気軽に！`,
+        mail: "takeshitoras.79@gmail.com",
         phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
-    }
+        address: "主な拠点：　心斎橋VARON 　京都MOJO"
+    },
 };
 
 module.exports = {
@@ -85,13 +81,20 @@ module.exports = {
             resolve: `gatsby-transformer-remark`,
             options: {
                 plugins: [
+                    {
+                        resolve: "gatsby-remark-embed-youtube",
+                        options: {　
+                            width: 480,
+                            height: 380
+                        }
+                    },
                     "gatsby-remark-copy-linked-files",
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
                             maxWidth: 1280
                         }
-                    }
+                    },
                 ]
             }
         },
